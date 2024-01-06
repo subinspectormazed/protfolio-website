@@ -21,6 +21,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-title {
@@ -40,4 +41,23 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+  padding: 30px 30px 30px 150px;
+}
+.banner-gratting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner {
+  display: flex;
+  align-items: center;
 }
